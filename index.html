@@ -1,341 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior | X</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interior | X</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <!-- Navbar -->
-  <div class="
-        navbar
-        bg-white
-        text-gray-800
-        font-bold
-        grid grid-cols-2
-        relative
-      ">
-    <div class="navbar-brand p-6">
-      <a href="#about" class="text-xl tracking-wide uppercase text-teal-700">Interior | X</a>
-    </div>
-    <div class="navbar-menu p-6">
-      <ul class="flex justify-evenly text-lg">
-        <li><a href="#" class="nav-item">Home</a></li>
-        <li><a href="#about" class="nav-item">About</a></li>
-        <li><a href="#price" class="nav-item">Price</a></li>
-        <li>
-          <a href="#contact" class="
-                bg-teal-700
-                text-white
-                p-3
-                rounded-md
-                hover:bg-black
-                transition
-                ease-in-out
-                delay-150
-              ">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- top header -->
-  <div class="top-header -mt-20 grid content-center justify-center">
-    <div class="tagline bg-black p-16">
-      <h1 class="text-2xl text-white font-bold capitalize tracking-wide text-tagline">
-        Your Professional Interior Service Solutions.
-      </h1>
-    </div>
-  </div>
-
-  <!-- About -->
-  <div class="about pt-8" id="about">
-    <h1 class="text-4xl font-bold text-center tracking-wide">About Us</h1>
-    <div class="content grid grid-cols-2 gap-10 mt-10 px-10">
-      <div class="main-about">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          temporibus sunt dolor repellendus consectetur dicta veritatis
-          explicabo non hic eligendi, minus vero aspernatur nihil minima
-          dolorum officiis, eos dolore ducimus ratione, cumque fugiat beatae.
-          Est illo distinctio aperiam? Dolore ut ducimus magnam pariatur
-          numquam soluta dicta deserunt quos excepturi debitis.
-        </p>
-        <br />
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-          laudantium dolorem omnis, unde harum consequatur, cum at asperiores,
-          adipisci praesentium vitae voluptas. Recusandae odio repellat
-          architecto, tenetur dolores minus magni veritatis, ullam iusto iure
-          quaerat nulla mollitia omnis eos consequuntur quidem, natus aperiam
-          in ad deleniti. Accusamus voluptatem quos obcaecati cumque, debitis
-          repellat, nemo labore autem praesentium voluptatibus amet, illo
-          necessitatibus quaerat tempora. Ipsam officiis dignissimos quas
-          adipisci quos similique.
-        </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          vero amet, assumenda explicabo recusandae consequatur architecto
-          inventore delectus deleniti quis itaque officiis, modi voluptatibus
-          possimus! Explicabo aperiam pariatur nam totam eaque animi tempore
-          odio non voluptate beatae, culpa harum officia fuga optio nemo
-          quidem esse maxime! In dicta natus et.
-        </p>
-      </div>
-      <div class="image-about justify-self-center">
-        <img src="image/room2.jpg" />
-      </div>
-    </div>
-  </div>
-
-  <!-- Price -->
-  <div class="price py-10" id="price">
-    <h1 class="text-4xl font-bold text-center tracking-wide">Price</h1>
-    <div class="card-container grid grid-cols-2 p-10 justify-items-center">
-
-      <div class="rounded-lg w-80 p-4 bg-white shadow-xl dark:bg-gray-800 max-w-xs">
-        <p class="text-2xl leading-normal bg-teal-700 text-white text-center font-bold tracking-wide dark:text-white pt-4">
-          Premium
-        </p>
-        <p class="text-4xl font-inter leading-normal bg-teal-700 text-white text-center font-bold dark:text-white pb-4">
-          <span class="font-inter text-md leading-loose text-center font-medium text-white  dark:text-white uppercase">
-            $
-          </span>
-          139
-        </p>
-        <ul>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            2 Alternative design styles
-          </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Unlimited design revisions
-          </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Working drawings (furniture plans, cut views, furniture details)
-          </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Communication via email, phone, WhatsApp (customized)
-          </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Customer service support 12/7
-          </li>
-        </ul>
-        <div class="py-4 text-center">
-          <button type="button"
-            class="py-2 px-4 bg-teal-600 hover:bg-teal-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-            Order Now
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-white text-gray-800 font-bold relative">
+      <div class="flex justify-between">
+        <!-- Navbar Brand -->
+        <div class="navbar-brand p-6">
+          <a href="#about" class="text-xl tracking-wide uppercase text-teal-700"
+            >Interior | X</a
+          >
+        </div>
+        <!-- Primary Navbar Items -->
+        <div class="navbar-menu p-6">
+          <ul class="hidden md:flex items-center space-x-6 text-lg">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="#about" class="nav-item">About</a></li>
+            <li><a href="#price" class="nav-item">Price</a></li>
+            <li>
+              <a
+                href="#contact"
+                class="bg-teal-700 text-white p-3 rounded-md hover:bg-black transition ease-in-out delay-150"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center p-6">
+          <button class="outline-none mobile-menu-button">
+            <svg
+              class="w-6 h-6 text-gray-500 hover:text-teal-700"
+              x-show="!showMenu"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
           </button>
         </div>
       </div>
-
-
-      <div class="rounded-lg w-80 p-4 bg-white shadow-xl dark:bg-gray-800 max-w-xs">
-        <p class="text-2xl leading-normal bg-teal-700 text-white text-center font-bold tracking-wide dark:text-white pt-4">
-          Multi Room
-        </p>
-        <p class="text-4xl font-inter leading-normal bg-teal-700 text-white text-center font-bold dark:text-white pb-4">
-          <span class="font-inter text-md leading-loose text-center font-medium text-white  dark:text-white uppercase">
-            $
-          </span>
-          222
-        </p>
+      <!-- mobile menu -->
+      <div class="hidden mobile-menu">
         <ul>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            2 Alternative design styles
+          <li>
+            <a
+              href="index.html"
+              class="block text-sm px-2 py-4 hover:bg-teal-700 hover:text-white transition duration-300"
+              >Home</a
+            >
           </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Unlimited design revisions
+          <li>
+            <a
+              href="#about"
+              class="block text-sm px-2 py-4 hover:bg-teal-700 hover:text-white transition duration-300"
+              >About</a
+            >
           </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Working drawings (furniture plans, cut views, furniture details)
+          <li>
+            <a
+              href="#price"
+              class="block text-sm px-2 py-4 hover:bg-teal-700 hover:text-white transition duration-300"
+              >Price</a
+            >
           </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Communication via email, phone, WhatsApp (customized)
-          </li>
-          <li
-            class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300">
-            Customer service support 12/7
+          <li>
+            <a
+              href="#contact"
+              class="block text-sm px-2 py-4 hover:bg-teal-700 hover:text-white transition duration-300"
+              >Contact</a
+            >
           </li>
         </ul>
-        <div class="py-4 text-center">
-          <button type="button"
-            class="py-2 px-4 bg-teal-600 hover:bg-teal-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-            Order Now
-          </button>
+      </div>
+    </nav>
+
+    <!-- top header -->
+    <div class="top-header -mt-20 grid content-center justify-center">
+      <div class="tagline bg-black mx-8 text-center p-8 md:p-16">
+        <h1
+          class="text-2xl text-white font-bold capitalize tracking-wide text-tagline"
+        >
+          Your Professional Interior Service Solutions.
+        </h1>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about pt-8" id="about">
+      <h1 class="text-4xl font-bold text-center tracking-wide">About Us</h1>
+      <div class="content grid grid-cols-2 gap-4 md:gap-10 mt-4 px-10">
+        <div class="main-about self-center">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum suscipit voluptas sapiente itaque aperiam? Nemo dolor dignissimos quod illo obcaecati amet magni, repudiandae quidem quo at, voluptas, non itaque. Dignissimos labore maiores veniam assumenda voluptas in eaque perferendis sunt sequi facilis, cumque non? Quos sequi iure doloremque! Maxime est voluptatibus corrupti quae animi iure esse libero quam dolores enim eos nulla fugit inventore autem ad, molestiae quos reprehenderit rerum, illo repellat. Maxime id officiis non sit aspernatur incidunt voluptas inventore.
+          </p>
+        </div>
+        <div class="image-about self-center md:justify-self-center">
+          <img src="image/room2.jpg" />
         </div>
       </div>
-
     </div>
-  </div>
 
-  <!-- Contact -->
-  <div class="contact mt-20 grid grid-cols-2" id="contact">
-    <div class="contact-image">
-      <img src="image/contact.gif" alt="">
-    </div>
-    <div class="
-              w-full
-              max-w-2xl
-              px-5
-              py-10
-              m-auto
-              mt-10
-              rounded-lg
-              dark:bg-gray-800
-            ">
-      <div class="
-                mb-6
-                text-3xl
-                font-light
-                text-center text-gray-800
-                dark:text-white
-              ">
-        Contact us !
-      </div>
-      <div class="contact-form-container grid content-center justify-center">
-        <form class="flex w-full max-w-lg space-x-3">
-          <div class="grid max-w-xl grid-cols-2 gap-4 m-auto">
-            <div class="col-span-2 lg:col-span-1">
-              <div class="relative">
-                <input type="text" id="contact-form-name" class="
-                      rounded-lg
-                      border-transparent
-                      flex-1
-                      appearance-none
-                      border border-gray-300
-                      w-full
-                      py-2
-                      px-4
-                      bg-white
-                      text-gray-700
-                      placeholder-gray-400
-                      shadow-sm
-                      text-base
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-purple-600
-                      focus:border-transparent
-                    " placeholder="Name" />
-              </div>
-            </div>
-            <div class="col-span-2 lg:col-span-1">
-              <div class="relative">
-                <input type="email" id="contact-form-email" class="
-                      rounded-lg
-                      border-transparent
-                      flex-1
-                      appearance-none
-                      border border-gray-300
-                      w-full
-                      py-2
-                      px-4
-                      bg-white
-                      text-gray-700
-                      placeholder-gray-400
-                      shadow-sm
-                      text-base
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-purple-600
-                      focus:border-transparent
-                    " placeholder="Email" />
-              </div>
-            </div>
-            <div class="col-span-2">
-              <label class="text-gray-800">
-                <textarea class="
-                    flex-1
-                    appearance-none
-                    border border-gray-300
-                    w-full
-                    py-2
-                    px-4
-                    bg-white
-                    text-gray-700
-                    shadow-sm
-                    text-base
-                    rounded-lg
-                    focus:outline-none
-                    focus:ring-2
-                    focus:ring-purple-600
-                    focus:border-transparent
-                    " id="comment" placeholder="Enter your comment" name="comment" rows="5" cols="40"></textarea>
-              </label>
-            </div>
-            <div class="col-span-2 text-right">
-              <button type="submit" class="
-                    py-2
-                    px-4
-                    bg-indigo-600
-                    hover:bg-teal-700
-                    focus:ring-indigo-500 focus:ring-offset-indigo-200
-                    text-white
-                    w-full
-                    transition
-                    ease-in
-                    duration-200
-                    text-center text-base
-                    font-semibold
-                    shadow-md
-                    focus:outline-none focus:ring-2 focus:ring-offset-2
-                    rounded-lg
-                  ">
-                Send
-              </button>
-            </div>
+    <!-- Price -->
+    <div class="price py-10" id="price">
+      <h1 class="text-4xl font-bold text-center tracking-wide">Price</h1>
+      <div class="card-container grid grid-rows-2 gap-8 md:grid-cols-2 md:grid-rows-none md:gap-0 p-10 justify-items-center">
+        <div
+          class="rounded-lg w-80 p-4 bg-white shadow-xl dark:bg-gray-800 max-w-xs"
+        >
+          <p
+            class="text-2xl leading-normal bg-teal-700 text-white text-center font-bold tracking-wide dark:text-white pt-4"
+          >
+            Premium
+          </p>
+          <p
+            class="text-4xl font-inter leading-normal bg-teal-700 text-white text-center font-bold dark:text-white pb-4"
+          >
+            <span
+              class="font-inter text-md leading-loose text-center font-medium text-white dark:text-white uppercase"
+            >
+              $
+            </span>
+            139
+          </p>
+          <ul>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              2 Alternative design styles
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Unlimited design revisions
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Working drawings (furniture plans, cut views, furniture details)
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Communication via email, phone, WhatsApp (customized)
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Customer service support 12/7
+            </li>
+          </ul>
+          <div class="py-4 text-center">
+            <button
+              type="button"
+              class="py-2 px-4 bg-teal-600 hover:bg-teal-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            >
+              Order Now
+            </button>
           </div>
+        </div>
+
+        <div
+          class="rounded-lg w-80 p-4 bg-white shadow-xl dark:bg-gray-800 max-w-xs"
+        >
+          <p
+            class="text-2xl leading-normal bg-teal-700 text-white text-center font-bold tracking-wide dark:text-white pt-4"
+          >
+            Multi Room
+          </p>
+          <p
+            class="text-4xl font-inter leading-normal bg-teal-700 text-white text-center font-bold dark:text-white pb-4"
+          >
+            <span
+              class="font-inter text-md leading-loose text-center font-medium text-white dark:text-white uppercase"
+            >
+              $
+            </span>
+            222
+          </p>
+          <ul>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              2 Alternative design styles
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Unlimited design revisions
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Working drawings (furniture plans, cut views, furniture details)
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Communication via email, phone, WhatsApp (customized)
+            </li>
+            <li
+              class="text-xs font-inter leading-normal text-center font-medium text-black dark:text-white py-4 border-t border-gray-300"
+            >
+              Customer service support 12/7
+            </li>
+          </ul>
+          <div class="py-4 text-center">
+            <button
+              type="button"
+              class="py-2 px-4 bg-teal-600 hover:bg-teal-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
       </div>
-      </form>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <div class="footer grid grid-cols-2 mt-10 gap-10 py-10 px-4">
-    <div class="list-footer">
-      <ul class="flex justify-evenly">
-        <li><a href="#" class="text-teal-700 hover:text-teal-800">About Us</a></li>
-        <li><a href="#" class="text-teal-700 hover:text-teal-800">Career</a></li>
-        <li><a href="#" class="text-teal-700 hover:text-teal-800">Advertise</a></li>
-        <li><a href="#" class="text-teal-700 hover:text-teal-800">Contact Us</a></li>
-        <li><a href="#" class="text-teal-700 hover:text-teal-800">Privacy Policy</a></li>
-        <li><a href="#" class="text-teal-700 hover:text-teal-800">Terms Of Service</a></li>
-      </ul>
+    <!-- Contact -->
+    <div class="contact mt-20 grid grid-cols-2" id="contact">
+      <div class="contact-image self-center">
+        <img src="image/contact.gif" alt="" />
+      </div>
+      <div
+        class="w-full max-w-2xl px-5 py-10 m-auto mt-10 rounded-lg dark:bg-gray-800"
+      >
+        <div
+          class="mb-6 text-3xl font-light text-center text-gray-800 dark:text-white"
+        >
+          Contact Us !
+        </div>
+        <div class="contact-form-container grid content-center justify-center">
+          <form class="flex w-full max-w-lg space-x-3">
+            <div class="grid max-w-xl grid-cols-2 gap-4 m-auto">
+              <div class="col-span-2 lg:col-span-1">
+                <div class="relative">
+                  <input
+                    type="text"
+                    id="contact-form-name"
+                    class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    placeholder="Name"
+                  />
+                </div>
+              </div>
+              <div class="col-span-2 lg:col-span-1">
+                <div class="relative">
+                  <input
+                    type="email"
+                    id="contact-form-email"
+                    class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="col-span-2">
+                <label class="text-gray-800">
+                  <textarea
+                    class="flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 shadow-sm text-base rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                    id="comment"
+                    placeholder="Enter your comment"
+                    name="comment"
+                    rows="5"
+                    cols="40"
+                  ></textarea>
+                </label>
+              </div>
+              <div class="col-span-2 text-right">
+                <button
+                  type="submit"
+                  class="py-2 px-4 bg-indigo-600 hover:bg-teal-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="list-social">
-      <ul class="flex justify-evenly">
-        <li class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
-        <li class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
-        <li class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
-        <li class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
-      </ul>
+
+    <!-- Footer -->
+    <div class="footer grid grid-rows-2 md:grid-cols-2 md:grid-rows-none mt-10 gap-10 py-10 px-4">
+      <div class="list-footer">
+        <ul class="flex justify-evenly flex-wrap gap-y-4">
+          <li>
+            <a href="#" class="text-teal-700 hover:text-teal-800">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="text-teal-700 hover:text-teal-800">Career</a>
+          </li>
+          <li>
+            <a href="#" class="text-teal-700 hover:text-teal-800">Advertise</a>
+          </li>
+          <li>
+            <a href="#" class="text-teal-700 hover:text-teal-800">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="text-teal-700 hover:text-teal-800"
+              >Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-teal-700 hover:text-teal-800"
+              >Terms Of Service</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="list-social">
+        <ul class="flex justify-evenly">
+          <li
+            class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"
+          >
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+          <li
+            class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"
+          >
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </li>
+          <li
+            class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"
+          >
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li
+            class="hover:text-teal-700 hover:scale-125 transition ease-in-out delay-100"
+          >
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <div class="copyright text-center py-10 bg-teal-700 text-white">
-    <h3>
-      Created With <i class="fa fa-heart"></i> by <a href="https://github.com/PMSP31" class="hover:text-black">Paul Mahardika</a>
-    </h3>
-  </div>
-  <!-- <script src="script.js"></script> -->
-</body>
-
+    <div class="copyright text-center py-10 bg-teal-700 text-white">
+      <h3>
+        Created With <i class="fa fa-heart"></i> by
+        <a href="https://github.com/PMSP31" class="hover:text-black"
+          >Paul Mahardika</a
+        >
+      </h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
