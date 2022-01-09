@@ -4,6 +4,7 @@ html {
   padding: 0;
   height: 100%;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -41,6 +42,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .contact {
