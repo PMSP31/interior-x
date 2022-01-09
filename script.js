@@ -6,6 +6,7 @@ btn.addEventListener("click", function () {
   menu.classList.toggle("hidden");
 });
 
+// on submit event
 function submitForm(e) {
   swal({
     title: "Success!",
@@ -16,6 +17,7 @@ function submitForm(e) {
   e.preventDefault();
 }
 
+// on click order event
 function order(e) {
   swal({
     title: "Hey!",
