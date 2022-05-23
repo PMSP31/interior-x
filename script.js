@@ -12,9 +12,6 @@ function submitForm() {
     title: "Success!",
     text: "Your message has been sent!",
     icon: "success",
-  }, function(){
-      window.location.href = "#";
-      document.getElementById("form-contact").reset();
   });
 }
 
@@ -25,5 +22,4 @@ function order(e) {
     text: "Sorry, This feature cannot be used.",
     icon: "info",
   });
-  e.preventDefault();
 }
