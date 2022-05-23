@@ -7,14 +7,15 @@ btn.addEventListener("click", function () {
 });
 
 // on submit event
-function submitForm(e) {
+function submitForm() {
   swal({
     title: "Success!",
     text: "Your message has been sent!",
     icon: "success",
+  }, function(){
+      window.location.href = "#";
+      document.getElementById("form-contact").reset();
   });
-  document.getElementById("form-contact").reset();
-  e.preventDefault();
 }
 
 // on click order event
