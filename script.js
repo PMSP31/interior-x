@@ -21,7 +21,7 @@ function submitForm(e) {
 function order(e) {
   swal({
     title: "Hey!",
-    text: "Currently, this feature cannot be used.",
+    text: "Sorry, This feature cannot be used.",
     icon: "info",
   });
   e.preventDefault();
