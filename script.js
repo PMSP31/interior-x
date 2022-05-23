@@ -16,7 +16,7 @@ function submitForm() {
 }
 
 // on click order event
-function order(e) {
+function order() {
   swal({
     title: "Hey!",
     text: "Sorry, This feature cannot be used.",
